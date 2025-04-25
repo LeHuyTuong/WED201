@@ -1,0 +1,178 @@
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1700px;
+}
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.text-header {
+    color: #24c016;
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: "ephesis";
+}
+.logo{
+    text-align: center;
+    margin-right: 105px;
+}
+.logo img {
+    width: 35%;
+    border: 2px black solid;
+    border-radius: 200px;
+
+}
+
+.text-header2 {
+    color: #24c016;
+    font-size: 40px;
+    margin-right: 200px;
+    font-family: "ephesis";
+}
+
+/*nav*/
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: #2aa721;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu li {
+    padding: 0 40px;
+    color: #0EC0C3;
+    font-style: none;
+    font-size: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+::marker{
+    color: gray;
+}
+/* section1 */
+.banner {
+    display: flex;
+}
+
+.col-6 {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 50%;
+    height: 500px;
+    padding-bottom: 20px;
+}
+/* section2 */
+.product{
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 35%;
+    
+}
+.product img{
+    width: 100%;
+    height: 400px;
+}
+.detail-content{
+    width: 65%;
+    float: left;
+}
+
+.detail-content h2{
+    margin: 0;
+    color: rgb(225, 36, 193);
+}
+.detail-content p{
+    font-size: 18px;
+}
+.detail-content h2, p, ul{
+    margin-left: 20px;
+}
+
+.detail-content ul{
+    color: #0EC0C3;
+    font-style: italic;
+}
+.detail-content li{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+/* footer */
+.footer h5{
+    margin: 0;
+}
+.footer{
+    background-color: #2aa721;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+/* html-task */
+.form{
+    margin-left: 180px;
+    display: flex;
+}
+.form table{
+    border-collapse: collapse;
+    display: flex;
+    margin-left: 70px;
+}
+.order{
+    background-color: rgb(237, 237, 237);
+}
+
+.order-header th{
+    background-color: #2aa721;
+    padding:  5px 50px;
+    font-size: 25px;
+    color: white;
+}
+.cb td{
+    padding: 10px 10px;
+    font-size: 18px;
+}
+.cb span{
+    float: right;
+    color: #F79646;
+}
+.submit {
+    background-color: white;
+}
+.submit input{
+    margin: 20px 0px 5px 200px;
+    padding: 5px 35px;
+    font-size: 20px;
+    color:white;
+    background-color: #F79646;
+    border: none;
+    border-radius: 5px;
+}
+.print{
+    background-color: white;
+}
+/* javascript-task */
+#ans{
+    padding: 10px 10px;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+#total{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+/* signed by minthep */

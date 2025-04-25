@@ -1,0 +1,112 @@
+body{
+    overflow-x: hidden;
+    margin-left: 15px;
+}
+.header-content-logo img{
+    width: 15%;
+    margin : 10px;
+}
+
+.header-content-search{
+    margin-top: 65px;
+}
+
+.menu{
+    width: 100%;
+    display: block;
+    justify-items: center;
+    background-color: aqua;
+}
+
+.content-text{
+    color: rgb(127, 255, 255);
+    text-align: center;
+}
+
+.content-banner img{
+    width: 100%;
+}
+.context-menu-text{
+    margin-left: 14px;
+}
+
+
+.best-seller{
+    margin : 0px 100px;
+}
+.best-seller-text{
+    color: rgb(127, 255, 255);
+    text-align: center;
+}
+
+.content-banner-seller h3{
+    text-align: center;
+    color: brown;
+}
+
+.content-banner-seller h4{
+    text-align: center;
+    color: aquamarine
+}
+.content-banner-seller img{
+    width: 100%;
+}
+.content-banner-seller p{
+    text-align: justify;
+}
+
+
+.information-text h1{
+    color: rgb(127, 255, 255);
+}
+.information-text{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.footer{
+    background-color:rgb(127, 255, 255); 
+    text-align: center;
+    color: white;
+    margin: 10px 0px;
+}
+
+@media only screen and (max-width: 679px){
+
+    .header-content-logo img {
+        width: 40%;
+        margin: auto;
+        display: block;
+    }
+
+    .header-content-search {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .menu button, .menu i {
+        font-size: 20px;
+    }
+    .best-seller{
+        flex-direction: column;
+        margin: auto;
+    }
+    .information-text{
+        width: 100%;
+    }
+    .footer{
+        width: 690px;
+        height: max-content;
+    }
+    .img{
+            width: 690px;
+            height: max-content;
+    }
+}

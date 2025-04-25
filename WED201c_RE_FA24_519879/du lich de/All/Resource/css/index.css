@@ -1,0 +1,160 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.logo-header{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contains-content h2{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    margin: 30px 0;
+    height: 30px;
+}
+
+.images-content{
+    margin-right: 1%;
+}
+.images-content img{
+    width: 100%;
+    padding: 0;
+    margin-left: 3%;
+}
+
+.content-Vuong{
+    margin-top: 1.5%;
+}
+.content-Vuong img{
+    width: 96%;
+    margin-left: 2.5%;
+}
+
+.content-info{
+    width: 62%;
+}
+
+
+.content-info h2{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
+
+.content-info p{
+    display: flex;
+    text-align: justify;
+    line-height: 32px;
+        width: 90%;
+}
+
+.price-book{
+    margin-top: 13%;
+}
+.price-book h4{
+    display: flex;
+    justify-content: center;
+    color: orange;
+}
+
+.book-now{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    color: white;
+    border-radius: 2px;
+    max-width: 50%;
+    margin-left: 26%;
+    cursor: pointer;
+}
+
+.content-Nho{
+    margin-top: 1.5%;
+}
+
+.content-Nho img{
+    width: 96%;
+    margin-left: 2.5%;
+}
+
+.content-info-Nho h2{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
+
+.content-info-Nho p{
+    display: flex;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.form-group {
+    margin: 20px;
+    padding-right: 10px;
+}
+
+.button{
+    background-color: orange;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #0FBFC4;
+    margin-top: 20px;
+    color: white;
+    padding : 10px;
+}
+
+@media only screen and (max-width: 767px){
+    .images-content img{
+        width: 97%;
+        margin-bottom: 20px;
+    }
+    .content-info {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .content-info h2{
+        margin-left: 4%;
+        color: aqua;
+    }
+    .content-info p{
+        font-size: 20px;
+    } 
+    
+    .price-book {
+        margin-top: 30px;
+    }
+    .price-book h4{
+        font-size: 25px;
+    }
+    .book-now{
+        margin-left: 25%;
+    }
+    .content-Vuong img{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .content-Nho img{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .content-info-Nho p{
+        font-size: 20px;
+        margin: 20px;
+    }
+}

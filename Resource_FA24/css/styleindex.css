@@ -1,0 +1,143 @@
+body{
+    padding: 0px;
+}
+.logo{
+    display:flex ;
+    justify-content: center;
+
+}
+.logo img{
+    width: 185px;
+    height: 162px;
+}
+.menu ul{
+    padding: 10px 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 230, 230);
+}
+
+.menu a{
+    padding: 10px 20px;
+
+    color: #00539B;
+    text-decoration: none;
+}
+.title h1{
+    text-align: center;
+    color: #00539B;
+
+}
+.laptop-content{
+    display: flex;
+}
+.list{
+    border: 1px solid black;
+    box-shadow: 0px 8px 20px rgba(53, 50, 50, 0.8);
+    display: flex;
+    height: 550px;
+    width: 890px;
+
+   
+}
+.img2 img{
+    width: 650px;
+    height: 530px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.img3 img{
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.content-de{
+    margin-left: 40px;
+    border: 1px solid black;
+    box-shadow: 0px 8px 20px rgba(53, 50, 50, 0.8);
+    width: 545px;
+    height: 542px;
+   
+}
+.content-title h1{
+    color: #00539B;
+    text-align: center;
+}
+.content-de h2{
+    color: orange;
+    text-align: center;
+}
+.content-de p{
+    border-bottom: 1px solid rgb(113, 109, 109); 
+    padding-top: 10px;
+    padding-left: 35px;
+}
+.sale{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+}
+.p1{
+    border: 1px solid black;
+    box-shadow: 0px 8px 20px rgba(53, 50, 50, 0.8);
+    width: 290px;
+    height: 380px;
+    
+}
+.p1 img{
+    width: 223px;
+    height: 220px;
+    padding-left: 30px;
+}
+.p1 p{
+    color: orange;
+    text-align: center;
+}
+.p1 div{
+
+    background-color: orange;
+    text-align: center;
+    margin-top: 60px; /* Đẩy xuống dưới */
+ 
+}
+.feedback h1{
+    text-align: center;
+    color: #00539B;
+    margin-top: 30px;
+
+}
+.fed{
+    margin-left: 10px;
+}
+.im{
+    width: 226px;
+    height: 240px;
+    border-radius: 50%;
+    margin-left: 30px
+}
+.ct1{
+    display: flex;
+    margin-bottom: 5px;
+}
+.up{
+    margin-left: 30px;
+}
+.up img{
+    width: 20%;
+
+}
+.footer{
+    background-color:#07A1C7;
+    color: aliceblue;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+   
+}
+.left{
+padding-left: 200px;
+}

@@ -1,0 +1,158 @@
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.content-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.content-logo img{
+    width: 200px;
+    height: 150px;
+}
+
+
+.content-menu {
+    width: 100%;
+}
+
+.content-menu ul{
+    display: flex;
+    background-color: #E0DCDB;
+    list-style: none;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+.content-menu a{
+    text-decoration: none;
+    color: #1169a3;
+    margin: 20px;
+    font-size:larger;
+}
+.content-title{
+    display: flex;
+    justify-content: center;
+    color: #1169a3;
+}
+
+.content-title h1{
+    font-size: 50px;
+}
+.laptop-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-images{
+    margin: 0 20px;
+    width: 75%;    
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 8px 20px rgba(53, 50, 50, 0.8);
+    border : 1px solid black;
+}
+
+
+.top-image img{
+   max-width: 97%;
+   margin : 10px
+}
+.small-images{
+    width: 16%;
+    margin-right: 20px;
+}
+.small-images img{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 17%;
+    margin-top: 10px;
+}
+.description-content{
+    width:40%;
+    margin-left: 50px;
+    padding : 10px;
+}
+
+.description-content{
+    box-shadow: 0px 8px 20px rgba(53, 50, 50, 0.8);
+    border : 1px solid black;
+    margin-right: 20px;
+}
+
+.description-content h2{
+    color: #e58a52 ;
+}
+
+.description-content p{
+    border-bottom: 1px solid #d9e4ec;
+    padding : 2px 0;
+}
+.price {
+    color: #e58a52 ;
+    font-style: italic;
+}
+
+.description-sale{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.product{
+    box-shadow: 0px 8px 20px rgba(53, 50, 50, 0.8);
+    border : 1px solid black;
+    padding : 10px;
+}
+.product p{
+    display: flex;
+    justify-content: center;
+    color: #e58a52;
+    font-size: 25px;
+}
+
+.name{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #e58a52;
+    padding : 5px 0;
+    
+}
+
+.content-feedback{
+    display: flex;
+}
+.content-feedback img{
+    border-radius: 150px;
+    width: 14%;
+    height: 10%;
+    margin: 20px;
+}
+
+.right-feedback{
+    width: 85%;
+    margin-left: 20px;
+    text-align: left;
+    padding-top: 30px;
+}
+.right-feedback img{
+    margin :20px;
+}
+
+.footer{
+    width: 100%;
+    background-color: #08A2C7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-info{
+    color: white;
+}

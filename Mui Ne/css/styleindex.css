@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.content-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.content-logo img{
+    width: 8%;
+}
+
+.content-menu{
+    width: 100%;
+    background-color: #1582BA;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+.content-menu a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+.content-menu li{
+    margin: 0 3%;
+}
+
+.content-banner{
+    display: flex;
+    justify-content: center;
+}
+
+.content-banner img{
+    width: 50%;
+}
+
+.content-title{
+    color: #7ABABE ;
+    text-align: center;
+}
+
+.detailed{
+    display: flex;
+    justify-content: center;
+}
+
+
+.detailed-content img{
+    margin-left: 30px;
+    width: 95%;
+    height: 100%;
+}
+
+.detailed-content-img{
+    width: 55%;
+}
+.small-img{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+.small-img img{
+    margin-left: 5px;
+}
+
+.detailed-content-img h2{
+    color: #cca888;
+    text-align: center;
+}
+.detailed-content-img p{
+    margin-right: 30px;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.book-now{
+    padding: 10px;
+    background-color: #30AAD6;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: right;
+    width: 9%;
+    margin-left: 84%;
+}
+
+.book-now a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.Muine{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightside{
+    width: 70%;
+}
+
+.topMuiNe{
+    display: flex;
+    justify-content: space-around;
+}
+.MuiNe1{
+    margin-left: 30px;
+    width: 25%;
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+}
+.MuiNe2{
+    width: 77%;
+    margin-left: 1%;
+}
+
+.MuiNe3{
+    display: flex;
+    justify-content: left;
+    gap: 1.25%;
+    margin-left: 2%;
+    width: 98%;
+}
+.MuiNe1 img{
+    width: 99%;
+}
+
+.MuiNe2 img{
+    width: 98%;
+}
+
+.MuiNe3 img{
+    width: 24%;
+    margin-left: 0;
+    margin-top: 10px;
+}
+.leftside{
+    width: 25%;
+    background-color: #cca888;
+    color: white;
+}
+
+.leftside h2{
+    margin-left: 5%;
+    margin: 35px 5%;
+}
+
+.leftside li{
+    margin-top : 25px;
+    
+}
+
+.DetailResort{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.DetailResort img{
+    width: 95%;
+}
+
+.positionUse div{
+    padding : 15px 0;
+    position: relative;
+    text-align: center;
+    width: 95%;
+    bottom: 51px;
+    color: white;
+    background-color: rgba(100,  96, 95, 0.5);
+}
+
+.footer{
+    text-align: left;
+    background-color: #30AAD6;
+    padding: 10px 0;
+    width: 100%;
+}
+.footer p{
+    color: white;
+    margin-left: 35%;
+}

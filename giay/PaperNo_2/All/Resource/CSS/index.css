@@ -1,0 +1,232 @@
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul{
+    display: flex;
+    
+}
+
+.menu li{
+    list-style: none;
+    margin-top: 12%;
+}
+
+.menu a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.logo img{
+    height: 100%;
+    width: 75%;
+}
+
+.search{
+    margin-top: 3%;
+}
+
+.search button{
+    background-color: black;
+    color: white;
+}
+
+.banner img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+
+.seller-content{
+    display: flex;
+}
+
+.left-content{
+    width: 55%;
+    margin-left: 3%;
+}
+
+.images-big img{
+    width: 78%;
+}
+
+.images-small img{
+    width: 19.1%;
+}
+
+.right-content{
+    padding: 0;
+    margin: 0;
+    margin-left: -7%;
+    margin-top: -1.5%;
+}
+.title2{
+    font-weight: bold;
+}
+.price span{
+    color: red;
+}
+
+.images-small-2{
+    display: flex;
+}
+.images-small-2 img{
+    border: 2px solid black;
+    width: 67%;
+}
+
+.right{
+    margin-right: -10%;
+    margin-left: 7%;
+}
+
+.size{
+    display: flex;
+    margin-left: 5%;
+}
+.size a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 15px;
+    margin-left: 3%;
+}
+
+.form {
+    margin-top: 5%;
+    width: 160%;
+    height: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.form h2{
+    text-align: center;
+}
+.input input{
+    width: 80%;
+    font-size: 150%;
+    margin-bottom: 3%;
+}
+.submit input{
+    border: none;
+    background-color: rgba(245, 22, 22, 0.734);
+    color: white;
+    padding: 6px 30px;
+    margin-left: 40%;
+}
+
+.content-suggest{
+    display: flex;
+}
+
+.shoes{
+    background-color: #F5CC94;
+    padding: 0 15px ;
+    padding-top: 15px;
+    margin-left: 2%;
+}
+.shoes p{
+    font-size: 17.5px;
+}
+
+.shoes h2{
+    color: red;
+    text-align: center;
+}
+
+.footer{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 2%;
+}
+
+
+
+.form{
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form table{
+    width: 35%;
+    margin: auto;
+    background-color: lightgray;
+    border-collapse: collapse;
+  }
+  
+  .form th{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: #0EC0C3;
+    padding: 12px 20px;
+    max-width: 1000px;
+  }
+  
+  .form td{
+    display: flex;
+    padding: 10px 20px;
+  }
+  
+  .input label {
+    width: 27%;
+  
+  }
+  .input input{
+    padding: 10px 20px;
+    width: 30%;
+  }
+  .input select{
+    padding: 10px 20px;
+    width: 39%;
+  }
+  
+  .Submit{
+      background-color: rgb(255, 255, 255);
+  }
+  .Submit td{
+    padding-top: 20px;
+    justify-content: center;
+  }
+  .btn{
+    background-color:#F79646;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 60px;
+    color: white;
+    font-size: 18px;
+  }
+  .result{
+    justify-content: center;
+    background-color: green;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .result td{
+    justify-content: center;
+  }
+  #result{
+    font-size: 20px;
+  }
+  #priceDisplay{
+    color:#F79646;
+    font-size: 25px;
+    margin-left: 40px;
+  }

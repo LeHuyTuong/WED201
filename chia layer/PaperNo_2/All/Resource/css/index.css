@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.content-header{
+    border-bottom: 5px solid rgb(125, 120, 120);
+}
+
+.content-header h3{
+    margin-top: 25%;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    color: orange;
+}
+
+.content-header img{
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 25%;
+}
+
+.has-search {
+    margin-top: 20%;
+}
+
+.line-content{
+    margin: 2.5% 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 5%;
+}
+
+.line-content img{
+    border: 10px solid rgb(198, 193, 193);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(111, 104, 104, 0.5);
+}
+
+.line-content h3{
+    text-align: center;
+}
+
+.content-banner img{
+    width: 100%;
+}
+
+.new-posts h1{
+    color: rgb(35, 174, 174);
+    margin-left: 1%;
+}
+
+.detailed-content {
+    margin-top: 1%;
+    display: flex;
+}
+
+.detailed-content img{
+    margin-left: 15%;
+}
+
+.detailed-content p{
+    margin-left: 20%;
+    line-height: 30px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.price {
+    color: orange;
+    font-size: 30px;
+}
+
+.Camry{
+    margin-left: 4%;
+}
+
+.footer{
+    background-color: rgb(23, 217, 224);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 767.98px){
+    .content-header{
+        padding: 0;
+        margin: 0;
+    }
+    .content-header h3{
+        font-size: 50px;
+        margin-top: 25px;
+    }
+    .content-header img{
+        margin-left: 29%;
+    }
+    .has-search{
+        margin-top: 1px;
+    }
+    .line-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .line-content img{
+        width: 92%;
+        margin-left: 3%;
+    }
+    .detailed-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .detailed-content img{
+        width: 90%;
+        margin-left: 4%;
+    }
+    .detailed-content p{
+        margin-left: 5%;
+    }
+    .Camry{
+        margin-left: 0.7%;
+    }
+}

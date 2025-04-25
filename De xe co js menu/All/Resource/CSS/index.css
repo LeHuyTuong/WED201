@@ -1,0 +1,163 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    margin-bottom: 2%;
+}
+
+.logo img{
+    width: 30%;
+    height: 100%;
+    margin-left: 45%;
+}
+.register-form{
+    display: flex;
+    width: 100%;
+}
+
+.banner { 
+    width: 55%;       
+    height: 60%;
+}
+.banner img{
+    width:100%;    
+    max-height: 700px;
+}
+
+.register {
+    width: 45%;
+}
+.register h1{
+    color: orange;
+    font-size: 50px;  
+    text-align: center;
+}
+.label-form{
+    display: flex;
+    margin-bottom: 5%;    
+}
+
+.label-form label{
+    color: orange;
+    font-size: 20px;
+    margin-left: 3%;
+    
+}
+.label-form select{
+    width: 400px;                  
+    font-size: 22px;   
+    margin: 0 auto;
+    
+}
+.label-form-phone label {
+    color: orange;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+.label-form-phone input{
+    width: 400px;                  
+    font-size: 22px;   
+    margin-left: 16.6%;
+    margin-bottom: 5%;
+}
+.label-form input{
+    width: 400px;                  
+    font-size: 22px;   
+    margin: 0 auto;
+}
+
+.comment-lable textarea{
+    height: 200px;
+    width: 400px;
+    margin-left: 6%;
+}
+.comment-lable label{
+    color: orange;
+    font-size: 20px;
+    margin-left: 3%;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.send input{
+    background-color: orange;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin-left: 30px;
+}
+
+.content-sellers h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+.seller-info{
+    display: flex;
+}
+.banner-seller img{
+    width: 90%;
+    margin-left: 5%;
+}
+.info h2{
+    color: aqua;
+}
+
+.info {
+    width: 100%;
+}
+
+.info p{
+    text-align: justify;
+    border-bottom: 1px solid gray;
+
+}
+
+.info-1{
+    width: 90%;
+}
+
+.info-access{
+    display: flex;
+    margin-left: 3%;
+}
+
+.access{
+    display: flex;
+}
+
+.access img{
+    width: 250px;
+    height: 250px; 
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 2%;
+}
+
+.price{
+    color: orange;
+    font-size: larger;
+}
+
+.footer{
+    margin-top: 3%;
+    background-color: rgb(5, 220, 220);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

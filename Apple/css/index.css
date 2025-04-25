@@ -1,0 +1,233 @@
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+.logo img{
+    width: 25%;
+    padding: 1%;
+    margin-left: 5%;
+}
+
+.search-box{
+    margin-top: 4%;
+}
+
+.header h3{
+    color: orange;
+    margin-top: 16%;
+    margin-left: 10%;
+    font-size: medium;
+    font-style: italic;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #0EBFC4;
+    width: 100%;
+}
+
+.title{
+    color:  #0EBFC4;
+    text-align: center;
+    padding-top: 2.5%;
+    margin-bottom: 2%;
+}
+
+.deltail{
+    display: flex;
+}
+
+.images{
+    margin: 1%;
+}
+.images img{
+    width: 100%;
+}
+
+.images p{
+    font-weight: 400;
+    text-align: justify;
+    width: 100%;
+    font-size: larger;
+}
+
+.information{
+    padding: 0;
+    margin: 0;
+}
+
+.information-title {
+    color: orange;
+    text-align: center;
+}
+
+.information p{
+    text-align: left;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.information u{
+    text-decoration: none;
+    color: #0dcdd3;
+    font-size: large;
+}
+.information li{
+    margin-left: 4%
+}
+.price{
+    margin-top: 1%;
+    font-weight: 500;
+}
+
+.price h3{
+    color: red;
+}
+
+.end img{ 
+    margin-top: 3%;
+    width: 45%;
+    height: 45%;
+}
+
+
+.right-info{
+    border: 1px solid black;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 2%;
+    
+}
+
+.right-info img{
+    margin-left: 15%;
+}
+
+.right-info h3{
+    color: orange;
+    text-align: center;
+    margin-top: -3px;
+}
+
+.list u{
+    text-decoration: none;
+}
+
+.list{
+    margin: 5% 5%;
+}
+
+.list li{
+    color: #0bdae1;
+    font-weight: 600;
+    font-size: larger;
+}
+
+
+.left-info img{
+    width: 72%;
+}
+
+.left-info {
+    width: 50%;
+    height: 200px;
+}
+.top-info{
+    display: flex;
+}
+
+.bot-info{
+    display: flex;
+}
+
+
+.watch{
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.watch img{
+    margin-left: 15%;
+}
+
+.watch h3{
+    color: orange;
+    margin-left: 35%;
+}
+
+.footer{
+    text-align: center;
+    background-color: #0dcdd3;
+    padding: 5px;
+    color: white;
+    margin-top: 2%;
+}
+
+@media only screen and (max-width: 767px){
+    body{
+        overflow-x: hidden;
+    }
+    .logo img{
+        width: 20%;
+        margin: 0 40%;
+    }
+    .search-box{
+        width: 96%;
+        margin: 0 auto;
+    }
+    .header h3{
+        margin: 0;
+        margin-left: 10%;
+        font-size: 30px;
+    }
+    .navbar-toggle {
+        position: absolute ;
+        top: 30%;               
+        right: 15px; 
+        transform: translateY(-50%);
+    }
+    .deltail{
+        display: flex;
+        flex-direction: column;
+        margin: 0 5%;
+        font-size: 20px;
+    }
+    .end{
+        display: flex;
+        font-size: 30px;
+    }
+    .end img{
+        width: 100%;
+    }
+    .right-info{
+        width: 95%;
+    }
+    
+    .seller{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .bot-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .watch{
+        height: 100%;
+        width: 195%;
+        margin: 10px 16px;
+    }
+    .watch h3{
+        margin-left: 44%;
+    }
+    .footer{
+        margin-top: 290%;
+    }
+}

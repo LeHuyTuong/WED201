@@ -1,0 +1,161 @@
+body{
+    margin:0 ;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 8%;
+}
+.menu{
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    background-color: #1583BA;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    
+}
+.menu li{
+    margin: 0 2%;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    width: 50%;
+}
+.tittleCenter{
+    text-align: center;
+    color: #58BABE;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.mangoBeach{
+    display: flex;
+    justify-content: center;
+}
+.mangoBeachLarge{
+    width: 46%;
+    margin-left: 2%;
+    height: 525px;
+}
+.mangoBeachLarge img{
+    width: 99%;
+    height: 525px;
+}
+.mangoBeachSmall{
+    width: 51%;
+    margin-right: 2%;
+}
+.mangoBeachSmall img{
+    width: 49%;
+}
+.mangoBeachSmall h2, .mangoBeachSmall p{
+    margin-right: 2%;
+    text-align: justify;
+    margin-left: 2%;
+}
+.mangoBeachSmall h2{
+    color: #E39746;
+    text-align: center;
+}
+.BookNow{
+    margin-left: 83%;
+    background-color: #29ABDC;
+    text-align: center;
+    border-radius: 3px;
+    padding: 12px 0;
+    width: 11%;
+}
+.BookNow a{
+    color: white;
+    text-decoration: none;
+}
+.Muine{
+    display: flex;
+    justify-content: space-around;
+}
+.rightside{
+    width: 70%;
+}
+.topMuiNe{
+    display: flex;
+    justify-content: space-around;
+}
+.MuiNe1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-left: 2%;
+}
+.MuiNe2 {
+    width: 77%;
+    margin-left: 1%;
+}
+.MuiNe3{
+    width: 98%;
+    display: flex;
+    justify-content:left;
+    gap: 1.25%;
+    margin-left: 2%;
+}
+.MuiNe1 img{
+    width: 99%;
+}
+.MuiNe2 img{
+    width: 98%;
+}
+.MuiNe3 img{
+    width: 24%;
+    margin-left: 0;
+    margin-top: 10px;
+}
+.leftside{
+    width: 25%;
+    color: white;
+    background-color: #64605F;
+}
+.leftside h2{
+    margin-left: 5%;
+    margin: 35px 5%;
+}
+.leftside li{
+    margin-top: 25px;
+}
+.DetailResort{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+}
+.DetailResort img{
+    width: 95%;
+}
+
+.footer{
+    background-color: #29ABDC;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+.positionUse div{
+    position: relative;
+    text-align: center;
+    bottom: 51px;
+    color: white;
+    background-color: rgba(99, 96, 96, 0.5);
+    width: 95%;
+    padding: 15px 0;
+}

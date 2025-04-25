@@ -1,0 +1,203 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.logo img{
+    width: 25%;
+}
+
+.about{
+    text-align: center;
+}
+
+.about h3{
+    font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: #1AC0C3;
+    height: 50px;
+    margin: 20px auto;
+}
+
+
+
+.content{
+    margin: 0.8%
+}
+
+.content-left-box{
+    border: 1px solid #1AC0C3;
+    padding-top: 0px;
+    margin-bottom: 10%;
+    
+}
+
+
+input[type="checkbox"], input[type="radio"] {
+    accent-color: #038fd5; 
+}
+
+
+.content-left-box h4{
+    background-color: #E1EDED;
+    margin: 0px;
+    color:#10B1E8;
+    padding: 2%
+}
+
+.content-left-box h4 span img{
+    width: 39px;
+    height: 30px;
+    margin: auto 1%;
+    margin-right: 4%;
+}
+
+.content-left-box p{
+    margin-left: 1%;
+}
+
+.content-right{
+    width: 80%;
+}
+
+.content-right-img img{
+    width: 100%
+}
+
+.content-right-title{
+    text-align: center;
+    color: #42CAF0;
+    border: 1px solid black;
+    margin: 2% auto;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+    padding: 1% 0px;
+}
+
+.content-right-title h2{
+    margin: 0px;
+}
+
+.content-right-tour{
+    border: 1px solid black;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+    padding: 1%;
+    margin: 20px auto;
+}
+
+.content-right-tour-img{
+    width: 40%;
+    padding: 0px
+}
+
+.content-right-tour-img img{
+    width: 100%;
+    height: 300px;
+}
+
+.content-right-tour-info h4{
+    color: #f4702e;
+}
+
+.content-right-tour-info h2{
+    color: #42CAF0;
+}
+
+.content-right-tour-info{
+    /* width: 698px; */
+    width: 60%;
+}
+
+.booknow{
+    background-color: #10B1E8;
+    display: inline-block;
+    margin-left :83%; 
+    margin-top: 10%;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.footer{
+    margin-top: 20px;
+    background-color: #1AC0C3;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-left{
+    width: 20%;
+    
+}
+
+@media only screen and (max-width: 768px){              
+    .header{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .logo{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    
+    .navbar-header{
+        width: 100vw;
+    }
+
+    .content-left{
+        width: 100%;
+    }
+
+    .content-right{
+        width: 100%;
+    }
+
+    .content-right-tour-img{
+        width: 100%;
+    }
+
+    .booknow{
+        background-color: #10B1E8;
+        display: inline-block;
+        margin-left :35%; 
+        border-radius: 10px;
+        padding: 10px 15px;
+        color: white;
+    
+    }
+
+    .content-right-title h2{
+        margin: 20px;
+    }
+
+    .content-right-title{
+        margin: 20px auto;
+    }
+
+    .content-right-tour-info{
+        /* width: 698px; */
+        width: 100%;
+    }
+   
+    
+}
+

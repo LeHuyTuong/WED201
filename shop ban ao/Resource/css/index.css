@@ -1,0 +1,145 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.content-logo{
+    display: flex;
+    justify-content: center;
+}
+.content-logo img{
+    height: 150px;
+}
+
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.left-side{
+    border: 1px solid aqua;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.left-side h4{
+    border-bottom: 1px solid aqua ;
+    background-color: #E0EEEE;
+}
+.left-side p{
+    margin-left: 10px;
+}
+.left-side img{
+    max-width: 15%;
+    margin: 5px;
+}
+
+.content-title{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
+
+.detail-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.detail-content img{
+    width: 100%;
+    border-radius: 150px;
+}
+
+.detail-content h4{
+    display: flex;
+    justify-content: center;
+}
+
+.content-product{
+    width: 26%;
+    border: 1px solid aqua;
+    text-align: justify;
+    margin-left: 5%;
+    padding: 2px;
+}
+
+.content-product img{
+    width: 100%;
+}
+.content-product h4{
+    color: orange;
+}
+
+.buy-now{
+    padding : 10px;
+    width: 35%;
+    background-color: #1FB8E6;
+    margin-left: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: rgb(254, 254, 254);
+    font-size: larger;
+}
+
+.suggested-title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.suggested-title h4{
+    color: orange;
+    text-align: center;
+}
+
+.footer{
+    background-color: #10895B;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 767.98px){
+    body{
+        overflow-x: hidden;
+    }
+    .left-side{
+        margin-right: 15px;
+    }
+    .detail-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .detail-content img{
+        height: 25%;
+        width: 25%;
+        margin-left: 38%;
+    }
+    .content-product{
+        height: 97%;
+        width: 89%;
+        margin-left: 5%;
+        margin-bottom: 15px;
+    }
+    .content-product img{
+        height: 97%;
+        width: 95%;
+    }
+    .content-product p{
+        text-align: justify;
+    }
+    .buy-now{
+        width: 15%;
+        margin-left: 55%;
+    }
+    .suggested-title{
+        display: flex;
+        flex-direction: column;
+    }
+    .suggested-title img{
+        margin-left: 4%;
+        width: 92%;
+        height: 50%;
+    }
+}

@@ -1,0 +1,197 @@
+.content-header{
+    display: flex;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 30%;
+    height: 100%;
+}
+.content-menu ul{
+    display: flex;
+}
+
+.content-menu li{
+    margin-top: 30px;
+    list-style: none;
+}
+
+.content-menu a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.search{
+    margin-top: 50px;
+    margin-left: 18%;
+}
+.search button{
+    background-color: black;
+    color: white;
+}
+
+.Detailed-content-first{
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+}
+
+.banner img{
+    height: 550px;
+    width: 900px;
+}
+
+.right-side{
+    margin-left: 4%;
+}
+.right-side h1{
+    color: rgb(5, 47, 160);
+    text-align: left;    
+    margin-top: -10px;
+}
+.right-side-info{
+    display: flex;
+}
+
+.right-side-info img{
+    height: 120px;
+    margin-bottom: 8px;
+}
+
+.info{
+    padding-left: 10px;
+}
+
+.info p{
+    width: 100%;
+}
+
+.price{
+    color: orange;
+    margin: 5% 0;
+}
+
+.top{
+    font-weight: bold;
+    margin-top: -2px
+}
+.right-info{
+    margin-left: 10px;
+}
+.title{
+    color: aqua;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.content-hotel{
+    display: flex;
+    width: 100%;
+    margin-left: 1.5%;
+}
+
+.left-image img{
+    width: 850px;
+}
+.content-booking{
+    background-color: rgb(240, 238, 238);
+    margin-left: 2%;
+    width: 570px;
+}
+.content-booking h3{
+    color: rgb(239, 157, 5);
+    text-align: center;
+    margin: 30px;
+    font-size: 25px;
+}
+.content-tour{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 70%;
+}
+
+.content-tour label{
+    font-weight: bold;
+}
+
+.input{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.book{
+    text-align: center;
+    width: 15%;
+    height: 8%;
+    padding: 1px;
+    background-color: orange;
+    color: white;
+    margin-left: 45%;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.content-title h2{
+    color: rgb(0, 130, 243);
+    text-align: center;
+    margin: 30px;
+}
+
+.feedback{
+    display: flex;
+    justify-content: space-between;
+}
+.feedback-img{
+    margin: 2%;
+    width: 30%;
+}
+.img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+.img-2 img{
+    width:  30%;
+}
+
+.feedback-img h3{
+    text-align: center;
+}
+
+.feedback-img p{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: rgb(21, 207, 207);
+    padding-bottom: 10px;
+    
+}
+
+.footer-top{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    color: white;
+}
+
+h5{
+    text-align: center;
+    color: white;
+}

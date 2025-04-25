@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DYNAMIC Appliance Repair</title>
+<!--Embed css here-->
+<link rel="stylesheet" href="css/index.css"> 	
+</head>
+<body>
+	<div> <!--content container-->
+		
+		<div class="logo"> <!--content logo-->
+			<img src="images/logo.PNG" alt="Dynamic" />
+		</div> <!-- Finish content logo-->
+
+		 <div class="menu"> <!--content Menu-->
+			<ul>
+				  <li><a href="#">Home</a></li>
+				  <li><a href="#">Services</a></li>
+				  <li><a href="#">Buy second hand things</a></li>
+				  <li><a href="#">Accessories</a></li>
+				  <li><a href="#">News</a></li>
+				  <li><a href="#" id="contactMenu" >Contact</a></li>
+			</ul>
+		 </div> <!-- Finish content Menu-->
+
+		 <div class="banner"> <!--content banner-->
+			<img src="images/Bannerice01.jpg" alt="Ice Cream" />
+			<img src="images/Bannerice02.jpg" alt="Ice Cream" />
+		 </div> <!-- Finish content banner-->
+		 
+		 <div class="content-About"> <!--content About-->
+		 	
+		 	<div class="text-content"> <!--Description text content-->
+		 		<h2>About</h2>
+		 		<p>
+					Dynamic Refrigeration Repair with the creative dynamism and agility of its staff. Over many years of business operations and development, we have always received very high trust from customers along with the advantages of experience, reputation, quality, and attentive service style with our staff. Professional and dedicated, we have continuously improved over the years.
+		 		</p>
+		 		<p>
+					Our motto is: "quality, prestige, dedication, agility, reasonable price" because we always believe that customers are the fundamental value, the only reason for the business to exist and develop.
+				</p>
+		 	</div> <!-- Finish Description text content-->
+		 	
+		 	<div> <!--Image on the right-->
+		 		<img src="images/gioithieu.jpg" alt="Dynamic appliance" />
+		 	</div> <!-- Finish Image on the right-->
+		 	
+		 </div> <!--content About-->
+		 
+		 
+		 <div class="services">  <!--content services title -->
+			<h1>SERVICES</h1>
+		 </div> <!-- Finish content services title -->
+
+		 <div> <!--detail of services-->
+			<div class="detail-services">
+				<div class="box-shadow">
+					<img src="images/lapmaylanh.jpg" alt="Install air conditioning" />
+					<p>Air conditioning installation</p>
+					<a href="#">View Detail &nbsp; &nbsp; &gt; </a>
+				</div>
+
+				<div class="box-shadow">
+					<img src="images/suamaylanh.jpg" alt="Air-conditioner repairing" />
+					<p>Air-conditioner repairing</p>
+					<a href="#">View Detail  &nbsp; &nbsp;  &gt;</a>
+				</div>
+
+				<div class="box-shadow">
+					<img src="images/suatulanh.jpg" alt="Repair refrigerator" />
+					<p>Repair refrigerator</p>
+					<a href="#">View Detail &nbsp; &nbsp;  &gt; </a>
+				</div>
+			</div>
+			<div class="detail-services">
+				<div class="box-shadow" >
+					<img src="images/suamaygiat.jpg" alt="Repair washing machines" />
+					<p>Repair washing machines</p>
+					<a href="#">View Detail  &nbsp; &nbsp;  &gt; </a>
+				</div>
+
+				<div class="box-shadow">
+					<img  src="images/suamaynonglanh.jpg" alt="Repair hot and cold water machines" />
+					<p>Repair hot and cold water machines</p>
+					<a href="#">View Detail  &nbsp; &nbsp;  &gt; </a>
+				</div>
+
+				<div class="box-shadow">
+					<img src="images/suatumat.jpg" alt="Repair fridge" />
+					<p>Repair fridge</p>
+					<a href="#">View Detail  &nbsp; &nbsp;  &gt; </a>
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+			
+		 </div> <!-- Finish detail of services-->
+		 
+		 
+		  <div class="services"> <!--content Refrigeration Accessories title-->
+			<h1>Refrigeration Accessories</h1>
+		 </div> <!-- Finish content Refrigeration Accessories title-->
+		 
+		 <div class="detail"> <!--detail of Refrigeration Accessories-->
+		 	
+		 	<div class="detail-info">
+		 		<img src="images/ngankeoluoi.jpg" alt="dynamic" />
+		 		<h4>Drawers utilize the underside of the tray</h4>
+		 		<p>Price : 10$</p>
+		 	</div>
+		 			 	
+		 	<div class="detail-info">
+		 		<img src="images/hopdungsilicon.jpg" alt="Dynamic" />
+		 		<h4>The carrying case has a silicone handle</h4>
+		 		<p>Price : 12$</p>
+		 	</div>
+		 	
+		 	<div class="detail-info">
+		 		<img src="images/giadungchai.jpg" alt="Dynamic" />
+		 		<h4>Rack for stacking bottles</h4>
+		 		<p>Price : 15$</p>
+		 	</div>
+		 	
+		 	<div class="detail-info">
+		 		
+		 		<img src="images/Remote.png" alt="Dynamic" />
+		 		<h4>Remote Toshiba</h4>
+		 		<p>Price : 5$</p>
+		 	</div>	 	
+		 	
+		 </div> <!-- Finish detail of Refrigeration Accessories-->
+
+	<!-------------------------------------------------------------------------------------------------------------------->
+
+		 <div class="footer" > <!-- content footer-->
+
+			<p>Email : DynamicAppliance@gmail.com</p>
+			<p>Address: 100 To Hien Thanh, District 10, HCMC</p>
+			<h5>&copy; Copyright 2024.  DynamicAppliance.com</h5>
+
+		</div> <!-- Finish content footer-->
+
+	 
+	</div><!--Finish container-->
+	<script> // nhớ thêm id ="contactMenu ở contact"
+		document.getElementById("contactMenu").addEventListener("click", function(event) {
+			event.preventDefault(); // chặn chuyển trang
+		
+			var phone = prompt("Enter your phone!");
+			if (phone != null && phone.trim() !== "") {
+				alert("The store will contact you as soon as possible via phone number:\n" + phone);
+			} else {
+				alert("You must enter a valid phone number!");
+			}
+		});
+	</script>
+		
+		
+</body>
+</html>
